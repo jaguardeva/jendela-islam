@@ -1,4 +1,4 @@
-import Container from "../ui/Container/page";
+import Container from "../ui/Container";
 
 export default function HeroSection() {
   return (

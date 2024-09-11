@@ -1,4 +1,4 @@
-import Container from "../components/ui/Container/page";
+import Container from "../components/ui/Container";
 
 export default function AboutPage() {
   return (

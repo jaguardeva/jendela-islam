@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="w-full flex items-center justify-center bg-white border-b-2 sticky top-0">
       <div className="w-full flex items-center justify-between max-w-7xl px-4 lg:px-0 h-[80px]">
         <div>
-          <h1>Jendela Islam</h1>
+          <h1 className="text-3xl font-bold">Jendela Islam</h1>
         </div>
         <ul className="lg:flex items-center justify-center gap-3 hidden">
           {MENU.map((menu, index) => {

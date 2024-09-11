@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import Container from "@/app/components/ui/Container/page";
+import Container from "@/app/components/ui/Container";
 
 interface Ayat {
   nomor: number;
@@ -28,7 +28,6 @@ const getSuratByNomor = async (nomor: string) => {
 };
 export default async function page({ params }: { params: { nomor: string } }) {
   const { data } = await getSuratByNomor(params.nomor);
-  console.log(data.ayat);
   return (
     <main className="py-6">
       <Container>
